@@ -1,0 +1,171 @@
+
+
+header {
+    color: rgb(255, 255, 255);
+    background-color: darkorange;
+    justify-content: center;
+}
+
+
+header h1 {
+font-family: "Sixtyfour", serif;
+  font-optical-sizing: auto;
+  font-size: 100%;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  padding: 1rem;
+  font-variation-settings:
+    "BLED" 0,
+    "SCAN" 0;
+}
+
+
+nav {
+    display: flex;
+    background-color: rgb(14, 97, 145);
+    margin: 0 auto;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+
+nav a{
+display: block;
+text-align: center;
+padding: 1rem;
+color: white;
+transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+a:hover {
+    color: darkorange;
+    background-color: white;
+}
+
+main {
+    display: grid;
+}
+
+section {
+    outline: auto;
+    margin: 1rem;
+}
+
+div{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    grid-column: 1/3;
+}
+
+img{
+    width: 100%;
+    max-width: 200px;
+    max-height: 275px;
+    border-radius: 8px;
+}
+
+
+section h1 {
+    color: white;
+    background-color: darkorange;
+    text-align: center;
+    margin-top: 0%;
+    font-family: "Sixtyfour", serif;
+    font-optical-sizing: auto;
+    font-size: 100%;
+    font-weight: 580;
+    font-style: normal;
+    text-align: center;
+    padding: 1rem;
+    font-variation-settings:"BLED" 0,"SCAN" 0;
+}
+
+#firstdiv{
+    grid-column: 1/5;
+    display: grid;
+}
+
+
+#firstfigure{
+    grid-column: 1/5;
+}
+
+#secondfigure{
+    grid-column: 3/5;
+    grid-row: 3/3;
+}
+
+#thirdfigure{
+    grid-column: 1/3;
+    grid-row: 3/3;
+    padding-top: 1rem;
+    padding-left: 2rem;
+}
+
+#firstcard{
+    grid-column: 1/5;
+    display: grid;
+}
+
+#firstcard h1 {
+    grid-column: 1/10;
+}
+
+#firstcard h2 {
+    text-align: center;
+}
+
+.title{
+    grid-column: all;
+}
+
+#seconddiv{
+    grid-column: 5/10;
+}
+
+#secondcard {
+    grid-column: 5/10;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-color: black;
+    width: 80%;
+    margin: -20px auto;
+    grid-column: 1/5;
+}
+
+ul{
+    display: block;
+    justify-content: space-evenly;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+li{
+    margin: 1rem;
+    padding: 1rem;
+}
+
+figcaption {
+    font-size: 1.2em; 
+    font-style: italic; 
+    color: #333; 
+    margin-top: 8px;
+    text-align: center;
+}
+
+
+footer{
+    background-color: darkorange;
+}
+
+footer p {
+    font-style: italic; 
+    text-align: center;
+    margin: 0.3rem;
+    color: white;
+}
+    
