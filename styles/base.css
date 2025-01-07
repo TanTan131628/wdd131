@@ -1,5 +1,3 @@
-
-
 header {
     color: rgb(255, 255, 255);
     background-color: darkorange;
@@ -50,7 +48,7 @@ main {
 section {
     outline: auto;
     margin: 1rem;
-    border-radius: 8px;
+    border-radius: 15px;
 }
 
 div{
