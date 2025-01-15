@@ -89,6 +89,7 @@ a:hover{
         font-size: 1rem;
         color: #22333B;
         text-align: center;
+        justify-items: center;
     }
 
 }
@@ -110,7 +111,7 @@ main h2 {
 }
 
 img{
-    width: 400px; height: 200px; margin: .3rem;
+    width: 400px; height: 200px; margin: .2rem;
     image-rendering: pixelated;
 }
 
