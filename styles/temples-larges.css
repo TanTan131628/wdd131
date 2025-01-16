@@ -44,6 +44,13 @@
     img {
       border-radius: 12px;
     }
+
+    img:hover {
+        transform: scale(1.05);
+        box-shadow: 0 4px 8px #0a0908;
+        transition: transform 0.6s;
+        transform-origin: center;
+    }
   
     figcaption {
       font-size: 1rem;
