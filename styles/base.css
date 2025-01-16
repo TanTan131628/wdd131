@@ -1,6 +1,8 @@
+
+
 header {
-    color: rgb(255, 255, 255);
-    background-color: darkorange;
+    color: #D5D8DC;
+    background-color: #2E4053;
     justify-content: center;
 }
 
@@ -21,7 +23,7 @@ font-family: "Sixtyfour", serif;
 
 nav {
     display: flex;
-    background-color: rgb(14, 97, 145);
+    background-color: #BFC9CA;
     margin: 0 auto;
     width: 100%;
     justify-content: space-evenly;
@@ -37,7 +39,7 @@ transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 a:hover {
-    color: darkorange;
+    color: #F1C40F;
     background-color: white;
 }
 
@@ -48,7 +50,6 @@ main {
 section {
     outline: auto;
     margin: 1rem;
-    border-radius: 5px;
 }
 
 div{
@@ -67,7 +68,7 @@ img{
 
 section h1 {
     color: white;
-    background-color: darkorange;
+    background-color: #AAB7B8;
     text-align: center;
     margin-top: 0%;
     font-family: "Sixtyfour", serif;
@@ -158,7 +159,7 @@ figcaption {
 
 
 footer{
-    background-color: darkorange;
+    background-color: #2E4053;
 }
 
 footer p {
